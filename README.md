@@ -1,66 +1,49 @@
-Ad Copy Formatter
+# Ad Copy Formatter
 
 A minimal Raycast extension to format and validate Google Ads copy in seconds.
 
-What It Does
+## What It Does
 
 Ad Copy Formatter helps you:
-	•	Format headlines into Title Case
-	•	Copy text as-is
-	•	Track character limits in real time
-	•	Prevent over-limit Google Ads copy
-	•	Quickly clear and reset content
 
-Built for performance marketers who want speed and precision.
+- Format headlines into Title Case
+- Copy text as-is
+- Track character limits in real time
+- Prevent over-limit Google Ads copy
+- Quickly clear and reset content
 
-⸻
+## Features
 
-Features
+### 1. Headline Mode
+- 30 character limit
+- Live character counter
+- Visual limit indicator
 
-1. Headline Mode
-	•	30 character limit
-	•	Live character counter
-	•	Visual limit indicator
+### 2. Description Mode
+- 90 character limit
+- Real-time remaining character display
 
-2. Description Mode
-	•	90 character limit
-	•	Real-time remaining character display
+### 3. Smart Status Indicator
+- 🟢 Within limit  
+- 🟡 Exactly at limit  
+- 🔴 Over limit  
 
-3. Smart Status Indicator
-	•	🟢 Within limit
-	•	🟡 Exactly at limit
-	•	🔴 Over limit
+### 4. One-Shortcut Workflow
 
-4. One-Shortcut Workflow
+| Action | Shortcut |
+|--------|----------|
+| Copy as Title Case | ⌘ + Return |
+| Copy As Is | ⌘ + ⇧ + C |
+| Clear Text | ⌘ + R |
 
-Action	Shortcut
-Copy as Title Case	⌘ + Return
-Copy As Is	⌘ + ⇧ + C
-Clear Text	⌘ + R
+## Installation
 
+1. Clone the repository
+2. Run:
 
-⸻
-
-Why This Exists
-
-When writing Google Ads:
-	•	Headline limit: 30 characters
-	•	Description limit: 90 characters
-
-Going over limit wastes time and breaks flow.
-
-This extension keeps you inside limits while writing — not after.
-
-⸻
-
-Installation
-	1.	Clone the repository
-	2.	Run:
-
+```sh
 npm install
 npm run dev
-
-Or install via Raycast Store (if published).
 
 ⸻
 
